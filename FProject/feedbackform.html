@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/logo.jpg">
+</head>
+<body>
+    <p style="text-align: center;"><b>FEEDBACK FORM</b></p>
+    <fieldset>
+        <legend>SHARE YOUR EXPERIENCE</legend>
+        <form action="">
+            <label for="name">Name: </label>
+            <input type="abc" id="name"  required placeholder="name" [A-z]+ ><br>
+            <label for="num">Phone No: </label>
+            <input type="tel" id="num" required minlength="10" maxlength="10" title="7756798935"><br>
+            <label for="">Gender</label>
+            <input type="radio" name="gen">Men
+            <input type="radio" name="gen">Female <br>            
+            <label for="loc">Where are you from: </label>
+            <input type="text" id="loc" required ><br>
+            
+            <label for="Rating">Rating: </label>
+            <input type="radio" id="Rating" >Outstanding
+            <input type="radio" id="Rating">Great
+            <input type="radio" id="Rating">Good
+            <input type="radio" id="Rating">Fair
+            <input type="radio" id="Rating">Poor<br>
+
+            <label for="exp">What You Like About Us</label>
+            <input type="checkbox" id="exp">Excellent hospitality
+            <input type="checkbox" id="exp">Friendly support
+            <input type="checkbox" id="exp">Affordable packages
+            <input type="checkbox" id="exp">Well-organized tours   <br>
+            
+            <label for="sel">Did you Notice Any Issues</label>
+            <select name="" id="sel">
+                <option value="" default >Select any Option</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Sometimes">Sometimes</option>
+                <option value="Pefer Not to Say">Pefer Not to Say</option>
+            </select><br>
+
+            <label for="msg">Write Something About Your Time at Pondy Hangouts: </label><br>
+            <textarea name="message" id="msg" rows="5" cols="40"></textarea><br>
+        </form>
+    </fieldset>
+    <center>
+        <input type="reset">
+    </center>
+    <input type="submit">
+</body>
+</html>
